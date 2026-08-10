@@ -42,3 +42,4 @@ coral_genus <- "Porites"
 # To create multiple text values, use c()
 coral_genera <- c("Porites", "Acropora")
 coral_genera
+
