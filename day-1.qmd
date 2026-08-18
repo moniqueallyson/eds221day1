@@ -1,6 +1,22 @@
+---
+title: "EDS 221 Week 1 Day 1"
+author: 
+    name: "Monique Hernandez"
+    affiliation: University of California, Santa Barbara
+date: "Augustt 3, 2026"
+format:
+  html:
+    toc: true
+execute:
+  message: false
+  warning: false
+---
+
+```{r}
 # This is a comment, it starts with a pound sign
 
-# An expression is a complete, self-contained piece of code that R can evaluate
+# An expression is a complete, self-contained 
+# piece of code that R can evaluate
 
 # These are all expressions
 2024
@@ -11,7 +27,8 @@ sample(1:6, size = 1)
 # We run code at the **console** (panel below)
 # Code modifies the **environment** panel to the right
 
-# For code to modify the environment, we have to assign the output to a variable using <-
+# For code to modify the environment, we have
+# to assign the output to a variable using <-
 1:6
 d6 <- 1:6
 
@@ -41,3 +58,4 @@ coral_genus <- "Porites"
 coral_genera <- c("Porites", "Acropora")
 coral_genera
 
+```
