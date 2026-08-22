@@ -1,37 +1,60 @@
 ---
-title: "Console, Script, and Environment"
+title: "Introduction to Programming"
 author: 
     name: "Monique Hernandez"
     affiliation: University of California, Santa Barbara
 date: "Augustt 10, 2026"
+toc: true
 format:
   html:
-    theme: "pulse"
-    toc: true
+    theme: "cosmos"
+    other-links:
+      - text: MEDS EDS 221 Day 1
+        href: https://eds-221-programming-m26.github.io/course-materials/day1.html
 execute:
   message: false
   warning: false
 ---
 
+
+## Comment
+
 ```{r}
-# This is a comment, it starts with a pound sign
+ #This is a comment, it starts with a pound sign
+```
 
-# An expression is a complete, self-contained 
-# piece of code that R can evaluate
 
-# These are all expressions
+## Expressions
+
+```{r}
 2024
 coral <- "Porites"
+print(coral)
 sample(1:6, size = 1)
+```
 
-# We write code in a **script** (this document)
-# We run code at the **console** (panel below)
-# Code modifies the **environment** panel to the right
+## Definitions
+:::{.callout-note}
+An **expression** is a complete, self-contained piece of code that R can evaluate.
+We write code in a **script** (this document).
+We run code at the **console** (panel below).
+Code modifies the **environment** panel to the right.
+:::
 
-# For code to modify the environment, we have
-# to assign the output to a variable using <-
+## Assign variables
+```{r}
 1:6
 d6 <- 1:6
+d6
+
+```
+
+::: {.callout-tip}
+For code to modify the environment, we have to assign the output to a variable using <-
+:::
+
+## PEMDAS
+```{r}
 
 # What do you think these operators do?
 5 + 2
@@ -45,9 +68,16 @@ d6 <- 1:6
 
 # Run this code and decide if * or : has higher precedence
 2 * 3 : 8
+```
 
-
-# Functions are triggered by parentheses
+## Functions
+::: {.callout-tip}
+are _triggered by parentheses_
+:::
+```{r}
+1:6
+d6 <- 1:6
+d6
 sample(d6, size = 1)
 
 # What do you think this does?
