@@ -5,8 +5,8 @@ author:
     email: mahernandez@ucsb.edu
     affiliation: 
     - University of California, Santa Barbara
-    - B.S. in Environmental Studies, 2025
     - Masters of Environmental Data Science, 2027
+    - B.S. in Environmental Studies, 2025
 date: "Augustt 10, 2026"
 toc: true
 format:
