@@ -1,9 +1,9 @@
 ---
-title: "EDS 221 Week 1 Day 1"
+title: "Console, Script, and Environment"
 author: 
     name: "Monique Hernandez"
     affiliation: University of California, Santa Barbara
-date: "Augustt 3, 2026"
+date: "Augustt 10, 2026"
 format:
   html:
     toc: true
