@@ -2,15 +2,21 @@
 title: "Introduction to Programming"
 author: 
     name: "Monique Hernandez"
-    affiliation: University of California, Santa Barbara
+    email: mahernandez@ucsb.edu
+    affiliation: 
+    - University of California, Santa Barbara
+    - B.S. in Environmental Studies, 2025
+    - Masters of Environmental Data Science, 2027
 date: "Augustt 10, 2026"
 toc: true
 format:
   html:
-    theme: "cosmos"
+    theme: "pulse"
     other-links:
-      - text: MEDS EDS 221 Day 1
+      - text: Course Website EDS 221 
         href: https://eds-221-programming-m26.github.io/course-materials/day1.html
+      - text: Monique's website
+        href: moniqueallyson.github.io
 execute:
   message: false
   warning: false
