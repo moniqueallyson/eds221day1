@@ -6,6 +6,7 @@ author:
 date: "Augustt 10, 2026"
 format:
   html:
+    theme: "pulse"
     toc: true
 execute:
   message: false
